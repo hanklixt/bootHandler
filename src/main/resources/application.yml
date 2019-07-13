@@ -1,0 +1,20 @@
+server:
+  port: 8081
+emp:
+  name: xiantao
+  age: 25
+  sex: true
+  salary: 20000
+  forte:
+    name: java
+    time: 2
+  date: 1994/08/22
+  map:
+    key1: value1
+    key2: value2
+  list:
+    - 第一个
+    - 第二个
+    - 第三个
+    - 第四个
+
