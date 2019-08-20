@@ -5,6 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;
 
+
 @SpringBootApplication
 @MapperScan("com.boot.demo.mapper" )
 @EnableCaching    //开启基于注解的缓存

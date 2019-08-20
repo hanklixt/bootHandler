@@ -13,5 +13,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface IDepartmentService extends IService<Department> {
 
-   Department getInfoById(Integer id);
+   //这里是为了使用spring缓存
+  Department getInfoById(Integer id);
+
+  boolean update(Department department);
 }
