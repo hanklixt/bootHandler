@@ -17,4 +17,6 @@ public interface IDepartmentService extends IService<Department> {
   Department getInfoById(Integer id);
 
   boolean update(Department department);
+
+   Department getDepartmentByName(String name);
 }
