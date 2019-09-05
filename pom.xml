@@ -40,7 +40,12 @@
             <version>1.18.8</version>
             <scope>provided</scope>
         </dependency>
-
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-redis -->
+        <!--redis-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
@@ -73,6 +78,7 @@
             <artifactId>reactor-core</artifactId>
             <version>3.1.6.RELEASE</version>
         </dependency>
+
 
     </dependencies>
 

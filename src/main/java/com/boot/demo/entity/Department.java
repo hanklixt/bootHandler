@@ -5,6 +5,8 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
 
+import java.io.Serializable;
+
 /**
  * <p>
  *
@@ -16,7 +18,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode()
 @Accessors(chain = true)
-public class Department {
+public class Department implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
